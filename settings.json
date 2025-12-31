@@ -3,7 +3,6 @@
     "ANTHROPIC_AUTH_TOKEN": "88_87237efc3d3f539a5c58e9653de6912e0abada08c671759a3c86e22e10d28e31",
     "ANTHROPIC_BASE_URL": "https://www.88code.ai/api"
   },
-  "model": "opus",
   "enabledPlugins": {
     "code-review@claude-plugins-official": true
   }
