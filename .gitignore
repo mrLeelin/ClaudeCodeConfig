@@ -1,0 +1,42 @@
+# Claude Code 本地配置（不共享）
+settings.local.json
+
+# Claude Code 缓存文件（会自动生成，不需要共享）
+history.jsonl
+stats-cache.json
+*.json.bak
+
+# Claude Code 生成的缓存目录
+debug/
+file-history/
+shell-snapshots/
+todos/
+statsig/
+
+# 环境变量与密钥文件（敏感）
+.env
+.env.*
+secrets/**
+config/credentials.json
+
+# 构建产物（不需要共享）
+build/
+dist/
+out/
+
+# 临时文件
+*.log
+*.tmp
+*.bak
+
+# IDE 配置（个人偏好）
+.vscode/
+.idea/
+*.swp
+
+# Node modules
+node_modules/
+
+# 系统文件
+.DS_Store
+Thumbs.db
