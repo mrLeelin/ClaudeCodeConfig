@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "plugins": {
+    "code-review@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\li182\\.claude\\plugins\\cache\\claude-plugins-official\\code-review\\6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-30T06:48:52.678Z",
+        "lastUpdated": "2025-12-30T06:50:40.495Z",
+        "isLocal": true
+      }
+    ]
+  }
+}
