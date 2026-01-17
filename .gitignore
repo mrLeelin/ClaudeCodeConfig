@@ -12,6 +12,8 @@ file-history/
 shell-snapshots/
 todos/
 statsig/
+cache/
+.search-index/
 
 # Claude Code 本地插件和计划（个人偏好）
 plugins/
