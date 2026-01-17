@@ -13,6 +13,11 @@ shell-snapshots/
 todos/
 statsig/
 
+# Claude Code 本地插件和计划（个人偏好）
+plugins/
+plans/
+ide/
+
 # 环境变量与密钥文件（敏感）
 .env
 .env.*
