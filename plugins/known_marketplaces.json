@@ -5,6 +5,22 @@
       "repo": "anthropics/claude-plugins-official"
     },
     "installLocation": "C:\\Users\\li182\\.claude\\plugins\\marketplaces\\claude-plugins-official",
-    "lastUpdated": "2025-12-31T08:35:25.325Z"
+    "lastUpdated": "2026-01-17T04:20:40.041Z"
+  },
+  "thedotmack": {
+    "source": {
+      "source": "github",
+      "repo": "thedotmack/claude-mem"
+    },
+    "installLocation": "C:\\Users\\li182\\.claude\\plugins\\marketplaces\\thedotmack",
+    "lastUpdated": "2026-01-15T10:47:14.871Z"
+  },
+  "zai-coding-plugins": {
+    "source": {
+      "source": "directory",
+      "path": "C:\\Users\\li182\\AppData\\Local\\npm-cache\\_npx\\2f024689b4d0d3b0\\node_modules\\@z_ai\\coding-helper\\zai-coding-plugins"
+    },
+    "installLocation": "C:\\Users\\li182\\AppData\\Local\\npm-cache\\_npx\\2f024689b4d0d3b0\\node_modules\\@z_ai\\coding-helper\\zai-coding-plugins",
+    "lastUpdated": "2026-01-16T03:24:59.061Z"
   }
 }

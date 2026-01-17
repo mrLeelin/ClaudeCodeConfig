@@ -1,9 +1,16 @@
 {
   "env": {
-    "ANTHROPIC_AUTH_TOKEN": "88_87237efc3d3f539a5c58e9653de6912e0abada08c671759a3c86e22e10d28e31",
-    "ANTHROPIC_BASE_URL": "https://www.88code.ai/api"
+    "ANTHROPIC_AUTH_TOKEN": "1188d37f31f04e388515593a5029cb37.ccrxChE1kdomH4Zb",
+    "ANTHROPIC_BASE_URL": "https://api.z.ai/api/anthropic",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-4.7",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-4.7",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-4.7",
+    "ANTHROPIC_MODEL": "glm-4.7"
   },
-  "enabledPlugins": {
-    "code-review@claude-plugins-official": true
+  "model": "opus",
+  "statusLine": {
+    "command": "npx -y ccstatusline@latest",
+    "padding": 0,
+    "type": "command"
   }
 }
