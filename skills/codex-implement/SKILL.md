@@ -1,3 +1,8 @@
+---
+name: codex-implement
+description: 使用 OpenAI Codex CLI 编写代码、实现功能。当用户选择使用 Codex 编写代码时调用此 Skill。
+---
+
 # Codex Implement 代码实现工具
 
 当需要使用 OpenAI Codex CLI 来编写代码、实现功能时，使用此 Skill 调用 Codex 进行代码生成。

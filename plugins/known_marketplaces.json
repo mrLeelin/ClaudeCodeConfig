@@ -5,7 +5,7 @@
       "repo": "anthropics/claude-plugins-official"
     },
     "installLocation": "C:\\Users\\li182\\.claude\\plugins\\marketplaces\\claude-plugins-official",
-    "lastUpdated": "2026-01-17T04:20:40.041Z"
+    "lastUpdated": "2026-02-13T09:02:08.900Z"
   },
   "thedotmack": {
     "source": {
@@ -22,5 +22,13 @@
     },
     "installLocation": "C:\\Users\\li182\\AppData\\Local\\npm-cache\\_npx\\2f024689b4d0d3b0\\node_modules\\@z_ai\\coding-helper\\zai-coding-plugins",
     "lastUpdated": "2026-01-16T03:24:59.061Z"
+  },
+  "anthropic-agent-skills": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/skills"
+    },
+    "installLocation": "C:\\Users\\li182\\.claude\\plugins\\marketplaces\\anthropic-agent-skills",
+    "lastUpdated": "2026-02-02T05:12:56.008Z"
   }
 }

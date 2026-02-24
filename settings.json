@@ -1,16 +1,19 @@
 {
   "env": {
-    "ANTHROPIC_AUTH_TOKEN": "1188d37f31f04e388515593a5029cb37.ccrxChE1kdomH4Zb",
-    "ANTHROPIC_BASE_URL": "https://api.z.ai/api/anthropic",
-    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-4.7",
-    "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-4.7",
-    "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-4.7",
-    "ANTHROPIC_MODEL": "glm-4.7"
+    "ANTHROPIC_AUTH_TOKEN": "sk-bkkmocsjv1l3qss36dchy7w6exibzy5962q3uqnazd65g65p",
+    "ANTHROPIC_BASE_URL": "http://127.0.0.1:5580"
   },
-  "model": "opus",
+  "includeCoAuthoredBy": false,
+  "model": "opus[1m]",
   "statusLine": {
+    "type": "command",
     "command": "npx -y ccstatusline@latest",
-    "padding": 0,
-    "type": "command"
-  }
+    "padding": 0
+  },
+  "enabledPlugins": {
+    "github@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": true,
+    "feature-dev@claude-plugins-official": true
+  },
+  "skipDangerousModePermissionPrompt": true
 }
