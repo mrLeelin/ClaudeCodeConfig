@@ -1,0 +1,9 @@
+Found 1 leak(s) from callstack:
+0x000001d7d9bdfa33 (Mono JIT Code) Unity.Collections.Memory/Unmanaged/Array:Resize (void*,long,long,Unity.Collections.AllocatorManager/AllocatorHandle,long,int) (at ./Library/PackageCache/com.unity.collections@14e905e9bd30/Unity.Collections/Memory.cs:79)
+0x000001d7d9befb43 (Mono JIT Code) Unity.Collections.Memory/Unmanaged:Allocate (long,int,Unity.Collections.AllocatorManager/AllocatorHandle) (at ./Library/PackageCache/com.unity.collections@14e905e9bd30/Unity.Collections/Memory.cs:20)
+0x000001d97fba9d3b (Mono JIT Code) Unity.Collections.LowLevel.Unsafe.HashMapHelper`1<int>:Alloc (int,int,int,Unity.Collections.AllocatorManager/AllocatorHandle) (at ./Library/PackageCache/com.unity.collections@14e905e9bd30/Unity.Collections/UnsafeHashMap.cs:116)
+0x000001da8aeec123 (Mono JIT Code) Unity.Collections.NativeHashMap`2<int, Unity.Entities.BlobAssetReference`1<MagicWarrior.Dots.Table.Types.MuJiCoinSkillParam>>:.ctor (int,Unity.Collections.AllocatorManager/AllocatorHandle) (at ./Library/PackageCache/com.unity.collections@14e905e9bd30/Unity.Collections/NativeHashMap.cs:152)
+0x000001da8aee8aab (Mono JIT Code) MagicWarrior.Dots.Table.DotsTableStore:CreateEmpty () (at E:/Project/Work/JellybeanUnity/JellybeanUnity/Assets/MagicWarrior/Scripts/Dots/Config/Table/DotsTableStore.cs:24)
+0x000001da8aee491b (Mono JIT Code) Dots.Systems.PrefabStoreSystem:OnUpdate (Unity.Entities.SystemState&) (at E:/Project/Work/JellybeanUnity/JellybeanUnity/Assets/MagicWarrior/Scripts/Dots/Ecs/Systems/Config/PrefabStoreSystem.cs:25)
+0x000001da8aee43a3 (Mono JIT Code) Dots.Systems.PrefabStoreSystem:__codegen__OnUpdate (intptr,intptr)
+0x000001d9a29676df (Mono JIT Code) Unity.Entities.SystemBaseRegistry/<>c__DisplayClass9_0:<SelectBurstFn>b__0 (intptr,intptr) (at ./Library/PackageCache/com.unity.entities@8cc175c78756/Unity.Entities/SystemBaseRegistry.cs:249)
